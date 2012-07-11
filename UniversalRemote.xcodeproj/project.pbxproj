@@ -1,0 +1,330 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		011A641676404E9AB862630C /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = C7C3793A7F9D42FCAE307907 /* libPods.a */; };
+		BA797D8C15AB4F36008D8B29 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BA797D8B15AB4F36008D8B29 /* UIKit.framework */; };
+		BA797D8E15AB4F36008D8B29 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BA797D8D15AB4F36008D8B29 /* Foundation.framework */; };
+		BA797D9015AB4F36008D8B29 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BA797D8F15AB4F36008D8B29 /* CoreGraphics.framework */; };
+		BA797D9615AB4F36008D8B29 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = BA797D9415AB4F36008D8B29 /* InfoPlist.strings */; };
+		BA797D9815AB4F36008D8B29 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = BA797D9715AB4F36008D8B29 /* main.m */; };
+		BA797D9C15AB4F36008D8B29 /* RemoteAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = BA797D9B15AB4F36008D8B29 /* RemoteAppDelegate.m */; };
+		BA797D9F15AB4F36008D8B29 /* MainStoryboard_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BA797D9D15AB4F36008D8B29 /* MainStoryboard_iPhone.storyboard */; };
+		BA797DA215AB4F36008D8B29 /* MainStoryboard_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BA797DA015AB4F36008D8B29 /* MainStoryboard_iPad.storyboard */; };
+		BA797DA515AB4F36008D8B29 /* RemoteViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BA797DA415AB4F36008D8B29 /* RemoteViewController.m */; };
+		BAEC6F3B15ACA36800A1D8CB /* CalibrationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BAEC6F3A15ACA36800A1D8CB /* CalibrationViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		BA797D8715AB4F36008D8B29 /* UniversalRemote.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = UniversalRemote.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		BA797D8B15AB4F36008D8B29 /* UIKit.framework */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		BA797D8D15AB4F36008D8B29 /* Foundation.framework */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		BA797D8F15AB4F36008D8B29 /* CoreGraphics.framework */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		BA797D9315AB4F36008D8B29 /* UniversalRemote-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "UniversalRemote-Info.plist"; sourceTree = "<group>"; };
+		BA797D9515AB4F36008D8B29 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		BA797D9715AB4F36008D8B29 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		BA797D9915AB4F36008D8B29 /* UniversalRemote-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UniversalRemote-Prefix.pch"; sourceTree = "<group>"; };
+		BA797D9A15AB4F36008D8B29 /* RemoteAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RemoteAppDelegate.h; sourceTree = "<group>"; };
+		BA797D9B15AB4F36008D8B29 /* RemoteAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RemoteAppDelegate.m; sourceTree = "<group>"; };
+		BA797D9E15AB4F36008D8B29 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPhone.storyboard; sourceTree = "<group>"; };
+		BA797DA115AB4F36008D8B29 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPad.storyboard; sourceTree = "<group>"; };
+		BA797DA315AB4F36008D8B29 /* RemoteViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RemoteViewController.h; sourceTree = "<group>"; };
+		BA797DA415AB4F36008D8B29 /* RemoteViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RemoteViewController.m; sourceTree = "<group>"; };
+		BAEC6F3915ACA36800A1D8CB /* CalibrationViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CalibrationViewController.h; sourceTree = "<group>"; };
+		BAEC6F3A15ACA36800A1D8CB /* CalibrationViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CalibrationViewController.m; sourceTree = "<group>"; };
+		C7C3793A7F9D42FCAE307907 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		E90A52F913D041998CB7C3FD /* Pods.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.xcconfig; path = Pods/Pods.xcconfig; sourceTree = SOURCE_ROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BA797D8415AB4F36008D8B29 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BA797D8C15AB4F36008D8B29 /* UIKit.framework in Frameworks */,
+				BA797D8E15AB4F36008D8B29 /* Foundation.framework in Frameworks */,
+				BA797D9015AB4F36008D8B29 /* CoreGraphics.framework in Frameworks */,
+				011A641676404E9AB862630C /* libPods.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		BA797D7C15AB4F35008D8B29 = {
+			isa = PBXGroup;
+			children = (
+				BA797D9115AB4F36008D8B29 /* UniversalRemote */,
+				BA797D8A15AB4F36008D8B29 /* Frameworks */,
+				BA797D8815AB4F36008D8B29 /* Products */,
+				E90A52F913D041998CB7C3FD /* Pods.xcconfig */,
+			);
+			sourceTree = "<group>";
+		};
+		BA797D8815AB4F36008D8B29 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BA797D8715AB4F36008D8B29 /* UniversalRemote.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BA797D8A15AB4F36008D8B29 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				BA797D8B15AB4F36008D8B29 /* UIKit.framework */,
+				BA797D8D15AB4F36008D8B29 /* Foundation.framework */,
+				BA797D8F15AB4F36008D8B29 /* CoreGraphics.framework */,
+				C7C3793A7F9D42FCAE307907 /* libPods.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		BA797D9115AB4F36008D8B29 /* UniversalRemote */ = {
+			isa = PBXGroup;
+			children = (
+				BAEC6F3915ACA36800A1D8CB /* CalibrationViewController.h */,
+				BAEC6F3A15ACA36800A1D8CB /* CalibrationViewController.m */,
+				BA797DA015AB4F36008D8B29 /* MainStoryboard_iPad.storyboard */,
+				BA797D9D15AB4F36008D8B29 /* MainStoryboard_iPhone.storyboard */,
+				BA797D9A15AB4F36008D8B29 /* RemoteAppDelegate.h */,
+				BA797D9B15AB4F36008D8B29 /* RemoteAppDelegate.m */,
+				BA797DA315AB4F36008D8B29 /* RemoteViewController.h */,
+				BA797DA415AB4F36008D8B29 /* RemoteViewController.m */,
+				BA797D9215AB4F36008D8B29 /* Supporting Files */,
+			);
+			path = UniversalRemote;
+			sourceTree = "<group>";
+		};
+		BA797D9215AB4F36008D8B29 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				BA797D9315AB4F36008D8B29 /* UniversalRemote-Info.plist */,
+				BA797D9415AB4F36008D8B29 /* InfoPlist.strings */,
+				BA797D9715AB4F36008D8B29 /* main.m */,
+				BA797D9915AB4F36008D8B29 /* UniversalRemote-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BA797D8615AB4F36008D8B29 /* UniversalRemote */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BA797DA815AB4F36008D8B29 /* Build configuration list for PBXNativeTarget "UniversalRemote" */;
+			buildPhases = (
+				BA797D8315AB4F36008D8B29 /* Sources */,
+				BA797D8415AB4F36008D8B29 /* Frameworks */,
+				BA797D8515AB4F36008D8B29 /* Resources */,
+				8D24C59B9E6740D892595833 /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = UniversalRemote;
+			productName = UniversalRemote;
+			productReference = BA797D8715AB4F36008D8B29 /* UniversalRemote.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BA797D7E15AB4F35008D8B29 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = Remote;
+				LastUpgradeCheck = 0430;
+				ORGANIZATIONNAME = "Stanford University";
+			};
+			buildConfigurationList = BA797D8115AB4F35008D8B29 /* Build configuration list for PBXProject "UniversalRemote" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = BA797D7C15AB4F35008D8B29;
+			productRefGroup = BA797D8815AB4F36008D8B29 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BA797D8615AB4F36008D8B29 /* UniversalRemote */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BA797D8515AB4F36008D8B29 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BA797D9615AB4F36008D8B29 /* InfoPlist.strings in Resources */,
+				BA797D9F15AB4F36008D8B29 /* MainStoryboard_iPhone.storyboard in Resources */,
+				BA797DA215AB4F36008D8B29 /* MainStoryboard_iPad.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		8D24C59B9E6740D892595833 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Pods-resources.sh\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BA797D8315AB4F36008D8B29 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BA797D9815AB4F36008D8B29 /* main.m in Sources */,
+				BA797D9C15AB4F36008D8B29 /* RemoteAppDelegate.m in Sources */,
+				BA797DA515AB4F36008D8B29 /* RemoteViewController.m in Sources */,
+				BAEC6F3B15ACA36800A1D8CB /* CalibrationViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		BA797D9415AB4F36008D8B29 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BA797D9515AB4F36008D8B29 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		BA797D9D15AB4F36008D8B29 /* MainStoryboard_iPhone.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BA797D9E15AB4F36008D8B29 /* en */,
+			);
+			name = MainStoryboard_iPhone.storyboard;
+			sourceTree = "<group>";
+		};
+		BA797DA015AB4F36008D8B29 /* MainStoryboard_iPad.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BA797DA115AB4F36008D8B29 /* en */,
+			);
+			name = MainStoryboard_iPad.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		BA797DA615AB4F36008D8B29 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		BA797DA715AB4F36008D8B29 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		BA797DA915AB4F36008D8B29 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E90A52F913D041998CB7C3FD /* Pods.xcconfig */;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "UniversalRemote/UniversalRemote-Prefix.pch";
+				INFOPLIST_FILE = "UniversalRemote/UniversalRemote-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		BA797DAA15AB4F36008D8B29 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E90A52F913D041998CB7C3FD /* Pods.xcconfig */;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "UniversalRemote/UniversalRemote-Prefix.pch";
+				INFOPLIST_FILE = "UniversalRemote/UniversalRemote-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BA797D8115AB4F35008D8B29 /* Build configuration list for PBXProject "UniversalRemote" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BA797DA615AB4F36008D8B29 /* Debug */,
+				BA797DA715AB4F36008D8B29 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BA797DA815AB4F36008D8B29 /* Build configuration list for PBXNativeTarget "UniversalRemote" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BA797DA915AB4F36008D8B29 /* Debug */,
+				BA797DAA15AB4F36008D8B29 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BA797D7E15AB4F35008D8B29 /* Project object */;
+}
